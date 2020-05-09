@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    display: grid;
+    grid-template-rows: 20vh;/*Tamanho do Grid*/
+    grid-template-areas: "footer footer";/*Aparecer*/  
+}
+.mainFooter{
+     grid-area: footer; background: #607848;
+     margin-top: 10px;
+     font: italic;
+     text-align: center;
+     text-decoration: none;
+     font-size: 20px; 
+}
+/*#pagina {
+    margin-top: 10px;/*Define a distância do topo*/
+   /* height: 1000px;/*Define a altura*/
+   /* width: 1200px;/*Define a largura*/
+   /* margin-left: auto;/*Margen esquerda, no auto centraliza tudo */
+   /* margin-right: auto;/*Margen Direita, no auto centraliza tudo*/
+   /* border-style: groove/*Define uma borda*/
+h2{
+    text-align: left;
+    text-transform: uppercase;
+    color: #515151;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    text-align: justify;
+}
+article{
+    text-align: center;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: black;
+    border-style: dotted;
+    border-bottom-width: 2px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 237, 234);
+}
+img{
+    margin-top: 40px;
+    width: 600px;
+    height: auto;
+}   
