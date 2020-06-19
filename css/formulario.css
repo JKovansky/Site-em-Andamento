@@ -29,14 +29,14 @@
     margin-right: auto;
     box-shadow: black 1px 2px 3px;*/
 }
-#botao{
+/*#botao{
     border-radius: 10px;
     border: #789048 1px solid;
     background-color: #C0D860;
     cursor: pointer;
     padding: 10px;
     color:black;
-}
+}*/
 #email, #nome{
     border-radius: 50px;
     border: black 1px solid;
